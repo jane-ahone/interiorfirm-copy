@@ -13,13 +13,18 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-design-yellow: var(--design-yellow);
+  --color-design-green: var(--design-green);
+  --color-design-light-grey: var(--design-light-grey);
+  --color-design-grey: var(--design-grey);
+  --color-design-black: var(--design-black);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }

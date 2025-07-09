@@ -1,0 +1,36 @@
+.sentence {
+  line-height: 2.12rem;
+  min-height: calc(1.5rem * 3);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+.main-text {
+  font-family: var(--font-heading);
+  grid-column: 3 / span 13;
+  grid-row: 6;
+}
+.sentence {
+  font-family: var(--font-body);
+  grid-column: 3 / span 7;
+  grid-row: 8;
+  color: #030605;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.explore-btn {
+    display: flex;
+    gap: 1rem;
+  grid-column: 7 /11;
+  grid-row: 13;
+  width: fit-content;
+}
