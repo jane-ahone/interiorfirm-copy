@@ -5,11 +5,11 @@ import InnovativeSection from "@/components/organisms/Innovative/page";
 
 export default function Home() {
   return (
-    <main>
+    <main className="container-grid">
       <Hero />
-      <ExperienceSection />
-      <DreamSpace/>
-      <InnovativeSection/>
+      {/* <ExperienceSection />
+      <DreamSpace />
+      <InnovativeSection /> */}
     </main>
   );
 }

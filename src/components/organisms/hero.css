@@ -2,6 +2,31 @@
   line-height: 2.12rem;
   min-height: calc(1.5rem * 3);
 }
+.short-line {
+  grid-column: 2;
+  grid-row: 4;
+  z-index: 10;
+}
+
+.long-line-1 {
+  position: absolute;
+  height: 100svh;
+  left: calc((100% / 16) * 2); /* column 8 = index 7 */
+  z-index: 20;
+}
+.long-line-2 {
+  position: absolute;
+  height: 100svh;
+  left: calc((100% / 16) * 5); /* column 8 = index 7 */
+  z-index: 20;
+}
+
+.horizontal-1 {
+  position: absolute;
+  top: calc((100% / 16) * 16);
+  left: calc((100% / 16) * 5); /* column 8 = index 7 */
+  z-index: 20;
+}
 
 .main-container {
   display: grid;

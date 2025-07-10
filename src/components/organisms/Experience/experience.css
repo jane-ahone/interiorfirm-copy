@@ -1,8 +1,9 @@
 .image-1 {
   margin-top: 7vh;
-  grid-column: 2 / auto;
+  grid-column: 4 / auto;
   position: relative;
   transform: translateY(-50%);
+  z-index: 30;
 }
 
 .image-2 {

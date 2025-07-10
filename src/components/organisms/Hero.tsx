@@ -4,34 +4,75 @@ import { MoveRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="bg-white relative grid main-container overflow-visible">
-      <div className="container-grid bg-design-yellow h-screen rounded-tr-[25rem] text-design-black ">
-        <svg
-          className="short-line"
-          xmlns="http://www.w3.org/2000/svg"
-          width="2"
-          height="114"
-          viewBox="0 0 2 114"
-          fill="none"
-        >
-          <path d="M1 0L0.999995 114" stroke="#030605" />
-        </svg>
-        <p className="main-text font-bold text-8xl leading-28 font-heading relative z-40">
-          Modern Interior Design Service
-        </p>
-        <p className="sentence">
-          Interiorfirm is an acclaimed multidisciplinary studio specializing in
-          interior architecture, interior design and décor that redefines
-          laid-back luxury.
-        </p>
-        <button className="explore-btn bg-design-green py-4 px-5 text-white font-semibold ">
-          {" "}
-          Explore Now
-          <MoveRight />
-        </button>
-      </div>
+    <section className="relative bg-design-yellow h-screen rounded-tr-[25rem] text-design-black ">
+      <svg
+        className="short-line"
+        xmlns="http://www.w3.org/2000/svg"
+        width="2"
+        height="114"
+        viewBox="0 0 2 114"
+        fill="none"
+      >
+        <path d="M1 0L0.999995 114" stroke="#030605" />
+      </svg>
+      <svg
+        className="long-line-1"
+        width="1"
+        height="1418"
+        viewBox="0 0 1 1418"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          opacity="0.32"
+          x1="0.5"
+          y1="-2.18557e-08"
+          x2="0.500062"
+          y2="1418"
+          stroke="#030605"
+        />
+      </svg>
 
-      <div className="overflow-visible relative right-[80%] top-[10%]">
+      <p className="main-text font-bold text-8xl leading-28 pl-1 font-heading relative z-40">
+        Modern Interior Design Service
+      </p>
+      <p className="sentence pl-1">
+        Interiorfirm is an acclaimed multidisciplinary studio specializing in
+        interior architecture, interior design and décor that redefines
+        laid-back luxury.
+      </p>
+      <svg
+        className="long-line-2"
+        width="1"
+        height="1418"
+        viewBox="0 0 1 1418"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          opacity="0.32"
+          x1="0.5"
+          y1="-2.18557e-08"
+          x2="0.500062"
+          y2="1418"
+          stroke="#030605"
+        />
+      </svg>
+      <svg
+        className="horizontal-1"
+        viewBox="0 0 1310 1"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
+      </svg>
+
+      <button className="explore-btn bg-design-green py-4 px-5 text-white font-semibold ">
+        {" "}
+        Explore Now
+        <MoveRight />
+      </button>
+      <div className="bg-white overflow-visible relative right-[80%] top-[10%] hidden">
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
