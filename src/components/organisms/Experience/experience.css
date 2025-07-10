@@ -1,0 +1,40 @@
+.image-1 {
+  margin-top: 7vh;
+  grid-column: 2 / auto;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.image-2 {
+  grid-column: 5 / auto;
+}
+
+.experience-text {
+  margin: auto;
+  gap: 3rem;
+  grid-column: 9 / auto;
+}
+
+.bottom-section {
+  grid-row: 4 / auto;
+}
+.scroll {
+  grid-column: 1 / 3;
+}
+
+.nightstand-img {
+  grid-column: 3/5;
+  width: 100%;
+  height: auto;
+}
+.arrow-right {
+  margin: auto;
+  grid-column: 5/9;
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  grid-column: 9 / 17;
+  width: 100%;
+}

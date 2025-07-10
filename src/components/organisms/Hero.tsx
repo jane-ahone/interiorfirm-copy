@@ -4,8 +4,18 @@ import { MoveRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <main className="bg-white relative grid main-container overflow-visible">
-      <div className="container bg-design-yellow h-svh rounded-tr-[25rem] text-design-black ">
+    <section className="bg-white relative grid main-container overflow-visible">
+      <div className="container-grid bg-design-yellow h-screen rounded-tr-[25rem] text-design-black ">
+        <svg
+          className="short-line"
+          xmlns="http://www.w3.org/2000/svg"
+          width="2"
+          height="114"
+          viewBox="0 0 2 114"
+          fill="none"
+        >
+          <path d="M1 0L0.999995 114" stroke="#030605" />
+        </svg>
         <p className="main-text font-bold text-8xl leading-28 font-heading relative z-40">
           Modern Interior Design Service
         </p>
@@ -73,7 +83,7 @@ const Hero = () => {
           </svg>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 

@@ -8,12 +8,6 @@
   grid-template-columns: 1fr 0.5fr;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(16, 1fr);
-}
-
 .main-text {
   font-family: var(--font-heading);
   grid-column: 3 / span 13;
@@ -28,8 +22,8 @@
   font-weight: 500;
 }
 .explore-btn {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
   grid-column: 7 /11;
   grid-row: 13;
   width: fit-content;
