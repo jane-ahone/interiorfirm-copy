@@ -2,14 +2,18 @@ import DreamSpace from "@/components/organisms/DreamSpace/page";
 import ExperienceSection from "@/components/organisms/Experience/Experience";
 import Hero from "@/components/organisms/Hero";
 import InnovativeSection from "@/components/organisms/Innovative/page";
+import Interior from "@/components/organisms/Interior/page";
+import Unique from "@/components/organisms/Unique/page";
 
 export default function Home() {
   return (
-    <main className="container-grid">
+    <main className="container-grid overflow-hidden">
       <Hero />
-      {/* <ExperienceSection />
+      <ExperienceSection />
       <DreamSpace />
-      <InnovativeSection /> */}
+      <InnovativeSection />
+      <Unique />
+      <Interior />
     </main>
   );
 }

@@ -1,8 +1,28 @@
+.blur {
+  width: 25rem;
+  height: 25rem;
+  transform: rotate(-15deg);
+  flex-shrink: 0;
+  border-radius: 6.25rem;
+  opacity: 0.1;
+  background: #e84f21;
+  filter: blur(66px);
+  right: 0;
+  grid-column: -1;
+  position: absolute;
+}
+
 .title {
-  grid-column: 2 / span 5;
-  grid-row: 7;
+  grid-column: 2 / span 3;
+  grid-row: 4;
 }
 .images {
+  grid-row: 8;
+  grid-column: 2 / -2;
+}
+.horizontal-1-dream {
+  position: absolute;
+  grid-column: 2/-1;
   grid-row: 9;
-  grid-column: 2 / span 13;
+  z-index: 30;
 }

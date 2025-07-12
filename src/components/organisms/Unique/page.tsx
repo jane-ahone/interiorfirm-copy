@@ -1,14 +1,11 @@
-import React from "react";
 import "./style.css";
 
-const DreamSpace = () => {
+const Unique = () => {
   return (
     <section className="grid-section ">
       <p className="title font-heading text-design-black font-bold text-7xl">
-        Create your Dream Space.
+        We will make Unique Designs for you.
       </p>
-
-      <div className="blur"></div>
 
       <div className="flex images">
         <div className=" py-12 px-14 flex flex-col gap-6">
@@ -118,4 +115,4 @@ const DreamSpace = () => {
   );
 };
 
-export default DreamSpace;
+export default Unique;

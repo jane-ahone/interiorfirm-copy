@@ -1,47 +1,32 @@
-.sentence {
-  line-height: 2.12rem;
-  min-height: calc(1.5rem * 3);
-}
-.short-line {
-  grid-column: 2;
-  grid-row: 4;
-  z-index: 10;
-}
-
-.long-line-1 {
-  position: absolute;
-  height: 100svh;
-  left: calc((100% / 16) * 2); /* column 8 = index 7 */
-  z-index: 20;
-}
-.long-line-2 {
-  position: absolute;
-  height: 100svh;
-  left: calc((100% / 16) * 5); /* column 8 = index 7 */
-  z-index: 20;
-}
-
-.horizontal-1 {
-  position: absolute;
-  top: calc((100% / 16) * 16);
-  left: calc((100% / 16) * 5); /* column 8 = index 7 */
-  z-index: 20;
-}
-
-.main-container {
+.grid-section-hero {
+  min-height: 100svh;
+  grid-column: 1/-1;
+  grid-row: 1;
   display: grid;
-  grid-template-columns: 1fr 0.5fr;
+  grid-template-columns: subgrid;
+}
+.div-1 {
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+.div-2 {
+  z-index: 100;
+  grid-column: 5 / -1;
+  grid-row: 1;
 }
 
 .main-text {
   font-family: var(--font-heading);
-  grid-column: 3 / span 13;
-  grid-row: 6;
+  grid-column: 3 / span 3;
+  grid-row: 3;
+  z-index: 200;
 }
+
 .sentence {
   font-family: var(--font-body);
-  grid-column: 3 / span 7;
-  grid-row: 8;
+  grid-column: 3 / span 1;
+  grid-row: 5;
   color: #030605;
   font-size: 1.25rem;
   font-weight: 500;
@@ -50,6 +35,50 @@
   display: flex;
   gap: 1rem;
   grid-column: 7 /11;
-  grid-row: 13;
+  grid-row: 11/12;
   width: fit-content;
+}
+
+/* Line styling */
+
+.short-line {
+  margin-top: 3rem;
+  grid-column: 1 / 2;
+  grid-row: 2;
+  justify-self: center;
+}
+
+.long-line-0 {
+  min-height: 100svh;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 2;
+  top: 0;
+  left: 0;
+}
+
+.long-line-1 {
+  height: 100svh;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 3;
+  top: 0;
+  left: 16.875rem;
+}
+
+.long-line-2 {
+  min-height: 100svh;
+  position: absolute;
+  grid-column: -1 / -2;
+  grid-row: 1;
+  top: 0;
+  left: 0;
+  justify-self: center;
+}
+
+.horizontal-1 {
+  position: absolute;
+  top: calc((100% / 16) * 16);
+  left: calc((100% / 16) * 3); /* column 8 = index 7 */
+  z-index: 20;
 }
