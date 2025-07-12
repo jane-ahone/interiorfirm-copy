@@ -1,0 +1,35 @@
+.grid-section-uni {
+  position: relative;
+  min-height: 100svh;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 0.2fr 0.0015fr repeat(3, 1fr) 0.2fr;
+  grid-template-rows: 0.5fr 1fr 0.3fr;
+}
+
+.title-unique {
+  grid-row: 1/2;
+  align-self: center;
+  grid-column: 2 / span 3;
+}
+.img-cntr-main {
+  grid-column: 1/-1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.uni-text {
+  font: var(--font-body);
+  color: #030605;
+  font-size: 1.25rem;
+  align-self: center;
+  grid-row: 3/4;
+  grid-column: 2/-2;
+}
+
+.horizontal-1-uni {
+  position: absolute;
+  bottom: 0;
+  grid-column: 1/-2;
+}

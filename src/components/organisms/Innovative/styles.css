@@ -11,6 +11,7 @@
   grid-column: 4/6;
   justify-self: flex-end;
   grid-row: 5;
+  text-align: end;
 }
 .horizontal-1-inno {
   position: absolute;
