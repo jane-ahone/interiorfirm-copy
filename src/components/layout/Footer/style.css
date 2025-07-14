@@ -1,0 +1,46 @@
+.section-footer {
+  background: #f8fbfa;
+  min-height: 60vh
+}
+
+.headings {
+  color: black;
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 147%; /* 1.65375rem */
+  letter-spacing: 0.0225rem;
+}
+.links {
+  color: #5c5e5e;
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 266.5%; /* 2.49844rem */
+  letter-spacing: 0.01875rem;
+}
+
+.div-1-foot {
+    /* padding: 5rem; */
+  grid-column: 2 / -2;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+.div-2-foot {
+  grid-column: 2 / -2;
+  display: flex;
+  justify-content: space-between;
+}
+.elmnt-1-work {
+  grid-column: 5/6;
+}
+
+.rect-2-feed {
+  grid-column: 2/5;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

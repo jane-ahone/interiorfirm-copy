@@ -79,14 +79,7 @@ const InnovativeSection = () => {
         </button>
       </div>
 
-      <svg
-        className="horizontal-2-inno"
-        viewBox="0 0 1310 1"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
-      </svg>
+      
     </section>
   );
 };
