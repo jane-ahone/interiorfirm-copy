@@ -1,0 +1,17 @@
+.title-int {
+    
+  grid-column: 3 / 6;
+  text-align: end;
+}
+.images-int {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+.rect-1-int {
+  grid-column: 1/6;
+}
+.rect-2-int {
+  grid-column: 1/6;
+  grid-row: 3;
+}

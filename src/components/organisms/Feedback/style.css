@@ -1,0 +1,19 @@
+.title-feed {
+   
+  grid-column: 2 / 4;
+}
+.elmnt-1{
+  grid-column: 5/6;
+  justify-self: flex-end;
+  align-self: center;
+}
+.rect-1-int {
+  grid-column: 1/6;
+}
+.rect-2-feed {
+  grid-column: 2/6;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
