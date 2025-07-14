@@ -36,6 +36,8 @@
   gap: 1rem;
   grid-column: 7 /11;
   grid-row: 11/12;
+  max-height: 4rem;
+  align-items: center;
   width: fit-content;
 }
 
@@ -78,7 +80,58 @@
 
 .horizontal-1 {
   position: absolute;
-  top: calc((100% / 16) * 16);
+  bottom: 0;
   left: calc((100% / 16) * 3); /* column 8 = index 7 */
   z-index: 20;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  body {
+    font-size: 10px;
+  }
+  .short-line,
+  .long-line-0,
+  .long-line-1,
+  .long-line-2,
+  .div-2 {
+    display: none;
+  }
+  .main-text {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    font-size: 3rem;
+    line-height: normal;
+  }
+
+  .sentence {
+    grid-column: 2 / 4;
+    grid-row: 4;
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+  .explore-btn {
+    grid-column: 2 /4;
+    grid-row: 5/6;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+  .main-text {
+    font-size: 3rem;
+    line-height: normal;
+  }
+
+  .sentence {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .main-text {
+    font-size: 5rem;
+    line-height: normal;
+  }
 }

@@ -5,7 +5,7 @@ import { MoveRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative grid-section-hero">
+    <section className="relative grid-section-hero" id="home">
       <div className="div-1 bg-design-yellow rounded-tr-[25rem] text-design-black relative">
         <svg
           className="short-line"
@@ -18,7 +18,7 @@ const Hero = () => {
           <path d="M1 0L0.999995 114" stroke="#030605" />
         </svg>
 
-        <p className="main-text font-bold text-8xl leading-28 pl-1 font-heading relative z-40">
+        <p className="main-text font-bold text-2xl  leading-10 md:text-8xl md:leading-28 pl-1 font-heading relative z-40">
           Modern Interior Design Service
         </p>
         <p className="sentence pl-1">
@@ -27,14 +27,6 @@ const Hero = () => {
           laid-back luxury.
         </p>
 
-        <svg
-          className="horizontal-1"
-          viewBox="0 0 1310 1"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
-        </svg>
         <button className="explore-btn bg-design-green py-4 px-5 text-white font-semibold ">
           {" "}
           Explore Now
@@ -142,6 +134,14 @@ const Hero = () => {
           y2="5000"
           stroke="#030605"
         />
+      </svg>
+      <svg
+        className="horizontal-1"
+        viewBox="0 0 1310 1"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
       </svg>
     </section>
   );

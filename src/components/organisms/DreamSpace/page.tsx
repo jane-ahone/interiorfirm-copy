@@ -3,7 +3,7 @@ import "./style.css";
 
 const DreamSpace = () => {
   return (
-    <section className="grid-section ">
+    <section className="grid-section " id="services">
       <p className="title font-heading text-design-black font-bold text-7xl">
         Create your Dream Space.
       </p>

@@ -8,7 +8,7 @@
   font-family: var(--font-body);
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 147%; /* 1.65375rem */
+  line-height: 147%; 
   letter-spacing: 0.0225rem;
 }
 .links {
@@ -16,12 +16,11 @@
   font-family: var(--font-body);
   font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 266.5%; /* 2.49844rem */
+  line-height: 266.5%; 
   letter-spacing: 0.01875rem;
 }
 
 .div-1-foot {
-    /* padding: 5rem; */
   grid-column: 2 / -2;
   display: grid;
   grid-template-columns: 0.5fr 1fr;

@@ -3,7 +3,7 @@ import "./style.css";
 
 const Interior = () => {
   return (
-    <section className="grid-section ">
+    <section className="grid-section " id="projects">
       <p className="title-int font-heading text-design-black font-bold text-7xl py-12">
         Amazing Projects from Talented Interior Architects!
       </p>

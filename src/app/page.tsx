@@ -10,16 +10,16 @@ import Working from "@/components/organisms/Working/page";
 
 export default function Home() {
   return (
-    <main className="container-grid overflow-hidden">
+    <main className="container-grid">
       <Hero />
       <ExperienceSection />
-      <DreamSpace />
+      {/* <DreamSpace />
       <InnovativeSection />
       <Unique />
       <Interior />
       <Feedback />
       <Working />
-      <Footer/>
+      <Footer/>  */}
     </main>
   );
 }

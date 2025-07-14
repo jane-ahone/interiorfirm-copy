@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ExperienceSection = () => {
   return (
-    <section className="grid-section-exp font-body relative">
+    <section className="grid-section-exp font-body relative" id="about">
       <div className="section-1 relative">
         <span className="image-1">
           {/* <Image

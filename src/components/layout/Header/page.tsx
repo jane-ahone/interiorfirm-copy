@@ -1,10 +1,10 @@
 "use client";
 
-import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-[#F8FBFA] flex justify-evenly items-center p-4 font-body">
+    <header className="bg-[#F8FBFA] flex justify-evenly items-center p-4 font-body overflow-hidden">
       <svg
         width="126"
         height="18"
@@ -63,11 +63,21 @@ const Header = () => {
       </svg>
 
       <nav className="flex gap-8 text-design-black text-xl">
-        <p>Home</p>
-        <p>About</p>
-        <p>Services</p>
-        <p>Projects</p>
-        <p>Feedbacks</p>
+        <Link href="#home">
+          <p className="cursor-pointer">Home</p>
+        </Link>
+        <Link href="#about">
+          <p className="cursor-pointer">About</p>
+        </Link>
+        <Link href="#services">
+          <p className="cursor-pointer">Services</p>
+        </Link>
+        <Link href="#projects">
+          <p className="cursor-pointer">Projects</p>
+        </Link>
+        <Link href="#feedbacks">
+          <p className="cursor-pointer">Feedbacks</p>
+        </Link>
       </nav>
       <button className="bg-design-green py-4 px-7 text-white font-semibold ">
         {" "}

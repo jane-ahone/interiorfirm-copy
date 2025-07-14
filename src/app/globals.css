@@ -28,6 +28,9 @@
     --foreground: #ededed;
   }
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--background);
@@ -45,4 +48,10 @@ body {
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: subgrid;
+}
+
+@media (max-width: 1024px) {
+  .container-grid {
+    grid-template-columns:0.2fr 1fr 1fr 1fr; /* 1 column on small screens */
+  }
 }

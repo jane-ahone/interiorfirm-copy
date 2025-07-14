@@ -2,7 +2,7 @@ import "./style.css";
 
 const Feedback = () => {
   return (
-    <section className="grid-section mt-12 ">
+    <section className="grid-section mt-12 " id="feedbacks">
       <p className="title-feed font-heading text-design-black font-bold text-7xl py-12">
         Our Customers Feedback.
       </p>
