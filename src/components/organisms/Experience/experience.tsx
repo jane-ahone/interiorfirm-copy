@@ -7,34 +7,64 @@ const ExperienceSection = () => {
     <section className="grid-section-exp font-body relative" id="about">
       <div className="section-1 relative">
         <span className="image-1">
-          {/* <Image
-            src="/images/mirror.jpg"
-            className="rounded-[12.5rem] max-w-fit"
-            alt="scroll down"
-            width={320}
-            height={480}
-          /> */}
           <svg
-            width="270"
-            height="478"
             viewBox="0 0 270 478"
-            fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            style={{
+              width: "100%",
+              height: "auto",
+              display: "block",
+              maxWidth: "270px",
+            }}
+            preserveAspectRatio="xMidYMid meet"
           >
-            <rect width="270" height="478" rx="135" fill="#E0E3E1" />
+            <mask
+              id="mask"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="270"
+              height="478"
+            >
+              <rect width="270" height="478" rx="135" fill="white" />
+            </mask>
+
+            <image
+              href="/images/mirror.jpg"
+              width="270"
+              height="478"
+              mask="url(#mask)"
+              preserveAspectRatio="xMidYMid slice"
+            />
           </svg>
         </span>
         <span className="image-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="270"
-            height="418"
             viewBox="0 0 270 418"
-            fill="none"
+            style={{
+              width: "100%",
+              height: "auto",
+              maxWidth: "270px",
+              maxHeight: "418px",
+            }}
           >
-            <path
-              d="M0 0H270V283C270 357.558 209.558 418 135 418C60.4416 418 0 357.558 0 283V0Z"
-              fill="#E0E3E1"
+            <defs>
+              <mask id="shape-mask" x="0" y="0" width="270" height="418">
+                <rect width="270" height="418" fill="black" />
+                <path
+                  d="M0 0H270V283C270 357.558 209.558 418 135 418C60.4416 418 0 357.558 0 283V0Z"
+                  fill="white"
+                />
+              </mask>
+            </defs>
+
+            <image
+              href="/images/room.jpg"
+              width="270"
+              height="418"
+              preserveAspectRatio="xMidYMid slice"
+              mask="url(#shape-mask)"
             />
           </svg>
         </span>
@@ -87,15 +117,15 @@ const ExperienceSection = () => {
           />
         </svg>
         <div className="email-form ">
-          <p className="font-heading text-design-black font-bold text-4xl">
+          <p className="font-heading text-design-black font-bold text-2xl lg:text-4xl">
             Make your dream home.
           </p>
           <span className="flex">
             <input
               placeholder="Your email address"
-              className="bg-design-light-grey px-6 py-5 grow  text-design-grey"
+              className="bg-design-light-grey px-6 py-3 lg:py-5 grow text-xs lg:text-base text-design-grey"
             />
-            <button className="bg-design-black px-9 py-5 text-white font-semibold ">
+            <button className="bg-design-black px-9 py-3 lg:py-5 text-white text-xs lg:text-base font-semibold ">
               Let&rsquo;s Chat
             </button>
           </span>
