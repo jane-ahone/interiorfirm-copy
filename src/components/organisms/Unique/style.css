@@ -33,3 +33,27 @@
   bottom: 0;
   grid-column: 1/-2;
 }
+@media (max-width: 1024px) {
+  .grid-section-uni {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  body {
+    font-size: 10px;
+  }
+  .title-unique {
+    grid-column: 1;
+    font-size: 3rem;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+  }
+
+  .img-cntr-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

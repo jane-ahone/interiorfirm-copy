@@ -1,6 +1,6 @@
 .section-footer {
   background: #f8fbfa;
-  min-height: 60vh
+  min-height: 60vh;
 }
 
 .headings {
@@ -8,7 +8,7 @@
   font-family: var(--font-body);
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 147%; 
+  line-height: 147%;
   letter-spacing: 0.0225rem;
 }
 .links {
@@ -16,7 +16,7 @@
   font-family: var(--font-body);
   font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 266.5%; 
+  line-height: 266.5%;
   letter-spacing: 0.01875rem;
 }
 
@@ -42,4 +42,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 475px) and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+  .main-text {
+    font-size: 3rem;
+    line-height: normal;
+  }
+
+  .sentence {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .div-1-foot {
+  display: flex ;
+  flex-direction: column;
+}
+  .div-2-foot {
+    flex-direction: column;
+  }
 }

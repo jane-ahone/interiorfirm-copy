@@ -15,16 +15,29 @@ const InnovativeSection = () => {
       >
         <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
       </svg>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="shape-1"
         width="640"
         height="600"
         viewBox="0 0 640 600"
-        fill="none"
       >
-        <path d="M0 0H640V160H405V600H0V0Z" fill="#E0E3E1" />
+        <defs>
+          <clipPath id="shapeMask">
+            <path d="M0 0H640V160H405V600H0V0Z" />
+          </clipPath>
+        </defs>
+
+        <image
+          href="/images/living-room.jpg"
+          width="640"
+          height="600"
+          clipPath="url(#shapeMask)"
+          preserveAspectRatio="xMidYMid slice"
+        />
       </svg>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="shape-2"
@@ -33,9 +46,21 @@ const InnovativeSection = () => {
         viewBox="0 0 875 428"
         fill="none"
       >
-        <path
-          d="M0 0H875V128C875 293.685 740.685 428 575 428H0V0Z"
-          fill="#E0E3E1"
+        <defs>
+          <clipPath id="shapeMask2">
+            <path
+              d="M0 0H875V128C875 293.685 740.685 428 575 428H0V0Z"
+              fill="#E0E3E1"
+            />
+          </clipPath>
+        </defs>
+
+        <image
+          href="/images/chair.jpg"
+          width="875"
+          height="428"
+          clipPath="url(#shapeMask2)"
+          preserveAspectRatio="xMidYMid slice"
         />
       </svg>
       <svg
@@ -74,12 +99,18 @@ const InnovativeSection = () => {
           customer service for homeowners and commercial clients. among flooring
           materials, none is more elegant and luxurious than natural stone.
         </p>
-        <button className="ml-9 mt-6 bg-design-green py-4 px-7 text-white font-semibold ">
+        {/* <button className="ml-9 mt-6 bg-design-green py-2 px-5 text-white font-semibold ">
           About Us
-        </button>
+        </button> */}
       </div>
-
-      
+          <svg
+        className="horizontal-2-inno"
+        viewBox="0 0 1310 1"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
+      </svg>
     </section>
   );
 };

@@ -13,13 +13,13 @@ export default function Home() {
     <main className="container-grid">
       <Hero />
       <ExperienceSection />
-      {/* <DreamSpace />
-      <InnovativeSection />
+      <DreamSpace />
+      {/* <InnovativeSection /> */}
       <Unique />
       <Interior />
       <Feedback />
       <Working />
-      <Footer/>  */}
+      <Footer/> 
     </main>
   );
 }

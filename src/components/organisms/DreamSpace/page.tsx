@@ -3,15 +3,15 @@ import "./style.css";
 
 const DreamSpace = () => {
   return (
-    <section className="grid-section " id="services">
-      <p className="title font-heading text-design-black font-bold text-7xl">
+    <section className=" grid-section " id="services">
+      <p className="title font-heading text-design-black font-bold text-5xl lg:text-7xl">
         Create your Dream Space.
       </p>
 
       <div className="blur"></div>
 
-      <div className="flex images">
-        <div className=" py-12 px-14 flex flex-col gap-6">
+      <div className="flex flex-col lg:flex-row images">
+        <div className=" py-12 px-7 items-center flex flex-col gap-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="146"
@@ -37,14 +37,15 @@ const DreamSpace = () => {
             />
             <circle cx="85.793" cy="105.69" r="2" fill="#030605" />
           </svg>
-          <p className="text-design-black text-4xl font-semibold">
+          <p className="text-design-black text-center lg:text-left text-4xl font-semibold">
             Smooth workflow
           </p>
-          <p className="text-design-grey text-xl">
-            We deliver the final work with great professional way.
+          <p className="text-design-grey text-center lg:text-left text-xl">
+            From concept to completion, our process is streamlined for
+            efficiency and clarity—so you stay informed and stress-free.
           </p>
         </div>
-        <div className="py-12 px-14 flex flex-col gap-6">
+        <div className="py-12 px-7 items-center flex flex-col gap-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="146"
@@ -72,14 +73,15 @@ const DreamSpace = () => {
               strokeLinejoin="round"
             />
           </svg>
-          <p className="text-design-black text-4xl font-semibold">
+          <p className="text-design-black text-4xl text-center lg:text-left  font-semibold">
             Professionalism
           </p>
-          <p className="text-design-grey text-xl">
-            We deliver the final work with great professional way.
+          <p className="text-design-grey text-xl text-center lg:text-left">
+            We uphold the highest standards in communication, delivery, and
+            execution to ensure every detail reflects quality.
           </p>
         </div>
-        <div className="py-12 px-14 flex flex-col gap-6">
+        <div className="py-12 px-7 items-center flex flex-col gap-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="146"
@@ -98,11 +100,12 @@ const DreamSpace = () => {
               strokeWidth="4"
             />
           </svg>
-          <p className="text-design-black text-4xl font-semibold">
+          <p className="text-design-black text-4xl text-center lg:text-left font-semibold">
             Trusted platform
           </p>
-          <p className="text-design-grey text-xl">
-            We deliver the final work with great professional way.
+          <p className="text-design-grey text-xl text-center lg:text-left">
+            Join thousands who rely on us for consistent results, transparent
+            service, and dependable support every step of the way.
           </p>
         </div>
       </div>

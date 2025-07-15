@@ -94,7 +94,8 @@
     display: none;
   }
   .grid-section-exp {
-    grid-auto-rows: 250px;
+    min-height: fit-content;
+    grid-auto-rows: 175px;
   }
   .experience-text,
   .email-form {

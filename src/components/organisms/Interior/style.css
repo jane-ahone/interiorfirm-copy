@@ -1,7 +1,16 @@
 .title-int {
-    
   grid-column: 3 / 6;
   text-align: end;
+}
+.text-int {
+  display: flex;
+  grid-column: 2/6;
+  grid-row: 3;
+  /* top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%; */
+ 
+
 }
 .images-int {
   grid-column: 1/-1;

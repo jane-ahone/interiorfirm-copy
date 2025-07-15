@@ -28,7 +28,7 @@
     --foreground: #ededed;
   }
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -50,4 +50,8 @@ body {
   grid-template-columns: subgrid;
 }
 
-
+@media (max-width: 1024px) {
+  .grid-section {
+    display: initial;
+  }
+}

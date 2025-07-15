@@ -61,12 +61,12 @@ const Footer = () => {
               fill="#030605"
             />
           </svg>
-          <p className="font-body text-xl mt-8 text-design-black leading-9 font-medium">
+          <p className="font-body text-xl mt-8 mb-4 text-design-black leading-9 font-medium">
             Interiorfirm is an acclaimed multidisciplinary studio specializing
             in interior architecture, interior design.
           </p>
         </div>
-        <div className="flex gap-24 justify-self-end">
+        <div className="flex gap-x-12 gap-y-8 flex-wrap lg:gap-24 justify-self-end">
           <div>
             <p className="headings">Company</p>
             <p className="links">Career </p>
@@ -111,7 +111,7 @@ const Footer = () => {
         <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
       </svg>
       <div className="div-2-foot">
-        <p className="links">
+        <p className="links ">
           © Copyright 2021 Interiorfirm ― All Rights Reserved.
         </p>
         <div>
