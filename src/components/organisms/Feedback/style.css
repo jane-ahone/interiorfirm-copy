@@ -1,8 +1,8 @@
 .title-feed {
-   
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
 }
-.elmnt-1{
+.elmnt-1 {
+  margin-right: 1.5rem;
   grid-column: 5/6;
   justify-self: flex-end;
   align-self: center;
@@ -12,8 +12,62 @@
 }
 .rect-2-feed {
   grid-column: 2/6;
-  grid-row: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+  .short-line,
+  .long-line-0,
+  .long-line-1,
+  .long-line-2,
+  .div-2 {
+    display: none;
+  }
+  .main-text {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    font-size: 3.25rem;
+    line-height: normal;
+  }
+
+  .sentence {
+    grid-column: 2 / 4;
+    grid-row: 4;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .explore-btn {
+    grid-column: 2 /4;
+    grid-row: 5/6;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+  .main-text {
+    font-size: 3rem;
+    line-height: normal;
+  }
+
+  .sentence {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .main-text {
+    font-size: 4rem;
+    line-height: normal;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .main-text {
+    font-size: 5rem;
+    line-height: normal;
+  }
 }

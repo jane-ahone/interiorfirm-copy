@@ -88,8 +88,8 @@ const Hero = () => {
       <svg
         className="long-line-0"
         width="1"
-        height="5000"
-        viewBox="0 0 1 5000"
+        height="4000"
+        viewBox="0 0 1 4000"
         fill="none"
       >
         <line
@@ -97,7 +97,7 @@ const Hero = () => {
           x1="0.5"
           y1="0"
           x2="0.5"
-          y2="5000"
+          y2="4000"
           stroke="#030605"
         />
       </svg>

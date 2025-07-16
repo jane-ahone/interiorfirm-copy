@@ -3,7 +3,7 @@ import "./style.css";
 
 const Working = () => {
   return (
-    <section className="grid-section mt-12 section-work min-h-[80vh] ">
+    <section className="grid-section mt-12 section-work ">
       <div className="div-1-work">
         <p className="title-work font-heading text-design-black font-bold text-[5.12rem] leading-20 py-12">
           Interested in Working with Us?
@@ -24,14 +24,25 @@ const Working = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="elmnt-1-work"
-        width="270"
-        height="408"
+        preserveAspectRatio="xMidYMid slice"
+        style={{ width: "100%", height: "auto", maxWidth: "270px" }}
         viewBox="0 0 270 408"
         fill="none"
       >
-        <path
-          d="M0 0H270V208C270 318.457 180.457 408 70 408H0V0Z"
-          fill="#E0E3E1"
+        <defs>
+          <clipPath id="work-clip">
+            <path
+              d="M0 0H270V208C270 318.457 180.457 408 70 408H0V0Z"
+              fill="#E0E3E1"
+            />
+          </clipPath>
+        </defs>
+        <image
+          href="/images/decor.jpg"
+          width="270"
+          height="408"
+          clipPath="url(#work-clip)"
+          preserveAspectRatio="xMidYMid slice"
         />
       </svg>
     </section>

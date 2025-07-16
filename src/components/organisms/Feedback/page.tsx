@@ -10,10 +10,10 @@ const Feedback = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="elmnt-1"
-        width="228"
-        height="158"
         viewBox="0 0 228 158"
         fill="none"
+        preserveAspectRatio="xMidYMid meet"
+        style={{ width: "100%", height: "auto", maxWidth: "228px" }}
       >
         <path
           opacity="0.1"
@@ -30,9 +30,20 @@ const Feedback = () => {
           viewBox="0 0 265 410"
           fill="none"
         >
-          <path
-            d="M0 0L265 -4.63341e-05L265 145C265 291.355 146.356 410 7.16867e-05 410L0 0Z"
-            fill="#E0E3E1"
+          <defs>
+            <clipPath id="feed-clip">
+              <path
+                d="M0 0L265 -4.63341e-05L265 145C265 291.355 146.356 410 7.16867e-05 410L0 0Z"
+                fill="#E0E3E1"
+              />
+            </clipPath>
+          </defs>
+          <image
+            href="/images/person.jpg"
+            width="265"
+            height="600"
+            clipPath="url(#feed-clip)"
+            preserveAspectRatio="xMidYMid slice"
           />
         </svg>
         <div className="text-design-black px-12 py-3">

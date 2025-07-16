@@ -67,9 +67,20 @@ const Unique = () => {
               className="absolute top-0 left-0 w-full h-full"
               preserveAspectRatio="xMidYMid meet"
             >
-              <path
-                d="M705 600L0 600L1.39876e-05 440C162.924 440 295 307.924 295 145L295 -3.58433e-05L705 0L705 600Z"
-                fill="#E0E3E1"
+              <defs>
+                <clipPath id="uni-clip-3">
+                  <path
+                    d="M705 600L0 600L1.39876e-05 440C162.924 440 295 307.924 295 145L295 -3.58433e-05L705 0L705 600Z"
+                    fill="#E0E3E1"
+                  />
+                </clipPath>
+              </defs>
+              <image
+                href="/images/croissant.jpg"
+                width="705"
+                height="600"
+                clipPath="url(#uni-clip-3)"
+                preserveAspectRatio="xMidYMid slice"
               />
             </svg>
 
@@ -80,9 +91,20 @@ const Unique = () => {
               className="relative w-[37.5%] h-auto"
               preserveAspectRatio="xMidYMid meet"
             >
-              <path
-                d="M0 0L265 -4.63341e-05L265 145C265 291.355 146.356 410 7.16867e-05 410L0 0Z"
-                fill="#E0E3E1"
+              <defs>
+                <clipPath id="uni-clip-4">
+                  <path
+                    d="M0 0L265 -4.63341e-05L265 145C265 291.355 146.356 410 7.16867e-05 410L0 0Z"
+                    fill="#E0E3E1"
+                  />
+                </clipPath>
+              </defs>
+              <image
+                href="/images/lamp.jpg"
+                width="265"
+                height="410"
+                clipPath="url(#uni-clip-4)"
+                preserveAspectRatio="xMidYMid slice"
               />
             </svg>
           </div>

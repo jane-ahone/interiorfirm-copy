@@ -30,20 +30,7 @@ const Interior = () => {
       </div>
 
       <div className="rect-2-int relative">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full"
-          viewBox="0 0 1310 290"
-          fill="none"
-        >
-          <path
-            d="M0 0H1310V290H290C129.837 290 0 160.163 0 0Z"
-            fill="#FFD476"
-          />
-        </svg>
-      </div>
-      <span className="text-design-black absolute top-0 text-int">
-        <div>
+        <div className="text-design-black text-int">
           <p className="font-body text-2xl lg:text-4xl font-semibold leading-9">
             Modern Style.
           </p>
@@ -54,7 +41,8 @@ const Interior = () => {
             concrete.
           </p>
         </div>
-      </span>
+      </div>
+
       {/* <button className="explore-btn bg-design-green py-4 px-5 text-white font-semibold hidden ">
         {" "}
         Explore

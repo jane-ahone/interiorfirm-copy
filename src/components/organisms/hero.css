@@ -93,7 +93,7 @@
 
 @media (min-width: 0px) and (max-width: 1024px) {
   body {
-    font-size: 10px;
+    font-size: 12px;
   }
   .short-line,
   .long-line-0,
@@ -105,14 +105,14 @@
   .main-text {
     grid-column: 2 / 4;
     grid-row: 3;
-    font-size: 3rem;
+    font-size: 3.25rem;
     line-height: normal;
   }
 
   .sentence {
     grid-column: 2 / 4;
     grid-row: 4;
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 1.5;
   }
   .explore-btn {
@@ -134,7 +134,15 @@
     font-size: 1.25rem;
   }
 }
+@media (min-width: 600px) and (max-width: 1024px) {
 
+  .main-text {
+    font-size: 4rem;
+    line-height: normal;
+  }
+
+ 
+}
 @media (min-width: 1024px) and (max-width: 1440px) {
   .main-text {
     font-size: 5rem;
