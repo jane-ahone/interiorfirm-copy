@@ -110,13 +110,13 @@ const Footer = () => {
       >
         <line opacity="0.32" y1="0.5" x2="1310" y2="0.5" stroke="#030605" />
       </svg>
-      <div className="div-2-foot">
+      <div className="div-2-foot mt-4">
         <p className="links ">
           © Copyright 2021 Interiorfirm ― All Rights Reserved.
         </p>
         <div>
-          <span className="links mx-4">Privacy Policy</span>
-          <span className="links mx-4">Terms & Conditions</span>
+          <span className="links mr-4">Privacy Policy</span>
+          <span className="links ">Terms & Conditions</span>
         </div>
       </div>
     </footer>

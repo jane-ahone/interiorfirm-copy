@@ -34,7 +34,7 @@ const Interior = () => {
           <p className="font-body text-2xl lg:text-4xl font-semibold leading-9">
             Modern Style.
           </p>
-          <p className="font-body text-base leading-7 lg:leading-9 lg:text-xl">
+          <p className="font-body text-xs leading-4 md:text-base md:leading-7 lg:leading-9 lg:text-xl">
             The modernist movement began to take shape when it shifted away from
             traditional construction and design elements such as wood, stone,
             and brick and toward industrial materials like as glass, steel, and

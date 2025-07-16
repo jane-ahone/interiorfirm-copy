@@ -17,32 +17,9 @@
 }
 
 @media (min-width: 0px) and (max-width: 1024px) {
-  body {
-    font-size: 12px;
-  }
-  .short-line,
-  .long-line-0,
-  .long-line-1,
-  .long-line-2,
-  .div-2 {
-    display: none;
-  }
-  .main-text {
-    grid-column: 2 / 4;
-    grid-row: 3;
-    font-size: 3.25rem;
-    line-height: normal;
-  }
-
-  .sentence {
-    grid-column: 2 / 4;
-    grid-row: 4;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  .explore-btn {
-    grid-column: 2 /4;
-    grid-row: 5/6;
+  .rect-2-feed {
+    display: flex;
+    flex-direction: column;
   }
 }
 

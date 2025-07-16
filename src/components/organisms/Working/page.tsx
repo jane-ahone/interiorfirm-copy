@@ -3,9 +3,9 @@ import "./style.css";
 
 const Working = () => {
   return (
-    <section className="grid-section mt-12 section-work ">
+    <section className="grid-section mt-12 mb-8 section-work ">
       <div className="div-1-work">
-        <p className="title-work font-heading text-design-black font-bold text-[5.12rem] leading-20 py-12">
+        <p className="title-work font-heading text-design-black font-bold text-4xl leading-14 py-6 lg:text-[5.12rem] lg:leading-20 lg:py-12">
           Interested in Working with Us?
         </p>
 
@@ -14,7 +14,7 @@ const Working = () => {
           you are interested in working with us, please visit our website and
           fill out the application form.
         </p>
-        <button className="explore-btn bg-design-green mt-8 py-4 px-5 text-white font-semibold ">
+        <button className="explore-btn bg-design-green mt-8 mb-8 py-4 px-5 text-white font-semibold ">
           {" "}
           Explore Now
           <MoveRight />

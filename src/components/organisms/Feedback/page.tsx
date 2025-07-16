@@ -3,7 +3,7 @@ import "./style.css";
 const Feedback = () => {
   return (
     <section className="grid-section mt-12 " id="feedbacks">
-      <p className="title-feed font-heading text-design-black font-bold text-7xl py-12">
+      <p className="title-feed font-heading text-design-black font-bold text-4xl py-6 lg:text-7xl lg:py-12">
         Our Customers Feedback.
       </p>
 
@@ -25,10 +25,14 @@ const Feedback = () => {
       <div className="rect-2-feed relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="265"
-          height="410"
+          style={{
+            width: "100%",
+            height: "auto",
+            maxWidth: "265px",
+          }}
           viewBox="0 0 265 410"
           fill="none"
+          preserveAspectRatio="xMidYMid meet"
         >
           <defs>
             <clipPath id="feed-clip">
@@ -47,10 +51,10 @@ const Feedback = () => {
           />
         </svg>
         <div className="text-design-black px-12 py-3">
-          <p className="font-body text-4xl font-semibold leading-8">
+          <p className="font-body text-4xl font-semibold leading-8 ">
             Jordyn Dorwart
           </p>
-          <p className="font-body text-4xl leading-14">
+          <p className="font-body text-base leading-7 lg:text-4xl lg:leading-14">
             “ Amazing fast and reliable customer support! The team of willing to
             go mile for customer service! ”
           </p>

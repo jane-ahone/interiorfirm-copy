@@ -7,8 +7,8 @@ const Unique = () => {
         We will make Unique Designs for you.
       </p>
       <div className="img-cntr-main ">
-        <div className="img-cntr relative">
-          <div className="relative w-full max-w-[705px] mx-auto">
+        <div className="img-cntr relative ">
+          <div className="relative w-full max-w-[705px] ">
             {/* First SVG */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,8 +58,8 @@ const Unique = () => {
             </svg>
           </div>
         </div>
-        <div className="img-cntr-2 relative">
-          <div className="relative w-full max-w-[705px] aspect-[705/600] mx-auto">
+        <div className="img-cntr-2 relative ">
+          <div className="relative w-full max-w-[705px] aspect-[705/600]">
             {/* Second (larger) SVG, absolutely positioned */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
