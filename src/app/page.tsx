@@ -19,7 +19,7 @@ export default function Home() {
       <Interior />
       <Feedback />
       <Working />
-      <Footer/> 
+      <Footer />
     </main>
   );
 }
