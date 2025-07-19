@@ -10,7 +10,7 @@ const Header = () => {
   console.log("visible", isMenuVisible);
   return (
     <>
-      <header className="bg-[#F8FBFA] flex md:justify-evenly justify-between items-center p-4 font-body overflow-hidden header-links">
+      <header className="bg-[#F8FBFA] flex md:justify-evenly justify-between items-center p-8 font-body overflow-hidden header-links">
         <svg
           width="126"
           height="18"
