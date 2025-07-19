@@ -101,7 +101,7 @@ const Header = () => {
 
       {
         <nav
-          className={` md:flex gap-8 text-design-black text-xl nav-links-mobile ${
+          className={`flex md:hidden gap-8 text-design-black text-xl nav-links-mobile ${
             isMenuVisible ? "open" : "hidden"
           } `}
         >
