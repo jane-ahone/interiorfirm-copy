@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .nav-links-mobile {
+    height: 100svh;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    background: #333;
+    color: white;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+
+  .nav-links-mobile.open {
+    transform: translateX(0);
+  }
+
+  .nav-links-mobile > a {
+    padding: 1rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  .nav-links-mobile > a:hover {
+    background-color: var(--color-design-yellow);
+  }
+}

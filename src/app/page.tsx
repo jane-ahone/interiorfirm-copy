@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <ExperienceSection />
       <DreamSpace />
-      <InnovativeSection />
+      {/* <InnovativeSection /> */}
       <Unique />
       <Interior />
       <Feedback />
