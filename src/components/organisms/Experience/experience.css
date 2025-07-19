@@ -97,8 +97,15 @@
     min-height: fit-content;
     grid-auto-rows: 175px;
   }
+  .email-form {
+    align-items: center;
+    justify-content: center;
+  }
   .experience-text,
   .email-form {
     grid-column: 2 / -1;
+  }
+  .experience-text > * {
+    text-align: center;
   }
 }

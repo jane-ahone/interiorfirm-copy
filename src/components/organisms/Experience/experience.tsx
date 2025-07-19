@@ -69,7 +69,7 @@ const ExperienceSection = () => {
         </span>
         <div className="flex experience-text ">
           <div>
-            <span className=" leading-28 font-bold text-black text-7xl">
+            <span className=" leading-28 font-bold text-black text-6xl lg:text-7xl">
               25
             </span>
             <p className="text-design-black text-2xl font-medium">
@@ -77,7 +77,7 @@ const ExperienceSection = () => {
             </p>
           </div>
           <div>
-            <span className="leading-28 font-bold text-black text-7xl">
+            <span className="leading-28 font-bold text-black text-6xl lg:text-7xl">
               162
             </span>
             <p className="text-design-black text-2xl font-medium">
