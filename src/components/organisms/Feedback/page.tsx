@@ -43,7 +43,7 @@ const Feedback = () => {
             </clipPath>
           </defs>
           <image
-            href="/images/person.jpg"
+            href="/images/person.webp"
             width="265"
             height="600"
             clipPath="url(#feed-clip)"

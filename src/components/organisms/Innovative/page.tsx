@@ -30,7 +30,7 @@ const InnovativeSection = () => {
         </defs>
 
         <image
-          href="/images/living-room.jpg"
+          href="/images/living-room.webp"
           width="640"
           height="600"
           clipPath="url(#shapeMask)"
@@ -56,7 +56,7 @@ const InnovativeSection = () => {
         </defs>
 
         <image
-          href="/images/chair.jpg"
+          href="/images/chair.webp"
           width="875"
           height="428"
           clipPath="url(#shapeMask2)"
@@ -103,7 +103,7 @@ const InnovativeSection = () => {
           About Us
         </button> */}
       </div>
-          <svg
+      <svg
         className="horizontal-2-inno"
         viewBox="0 0 1310 1"
         fill="none"

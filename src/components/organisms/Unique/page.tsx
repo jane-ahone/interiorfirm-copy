@@ -25,7 +25,7 @@ const Unique = () => {
                 </clipPath>
               </defs>
               <image
-                href="/images/blue.jpg"
+                href="/images/blue.webp"
                 width="705"
                 height="600"
                 clipPath="url(#uni-clip)"
@@ -49,7 +49,7 @@ const Unique = () => {
                 </clipPath>
               </defs>
               <image
-                href="/images/couch.jpg"
+                href="/images/couch.webp"
                 width="265"
                 height="410"
                 clipPath="url(#uni-clip-2)"
@@ -76,7 +76,7 @@ const Unique = () => {
                 </clipPath>
               </defs>
               <image
-                href="/images/croissant.jpg"
+                href="/images/croissant.webp"
                 width="705"
                 height="600"
                 clipPath="url(#uni-clip-3)"
@@ -100,7 +100,7 @@ const Unique = () => {
                 </clipPath>
               </defs>
               <image
-                href="/images/lamp.jpg"
+                href="/images/lamp.webp"
                 width="265"
                 height="410"
                 clipPath="url(#uni-clip-4)"

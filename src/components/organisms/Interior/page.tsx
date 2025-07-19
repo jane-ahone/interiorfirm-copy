@@ -19,7 +19,7 @@ const Interior = () => {
             </clipPath>
           </defs>
           <image
-            href="/images/bright.jpg"
+            href="/images/bright.webp"
             width="1310"
             height="580"
             clipPath="url(#int-clip-1)"

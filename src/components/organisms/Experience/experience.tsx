@@ -29,7 +29,7 @@ const ExperienceSection = () => {
             </mask>
 
             <image
-              href="/images/mirror.jpg"
+              href="/images/mirror.webp"
               width="270"
               height="478"
               mask="url(#mask)"
@@ -59,7 +59,7 @@ const ExperienceSection = () => {
             </defs>
 
             <image
-              href="/images/room.jpg"
+              href="/images/room.webp"
               width="270"
               height="418"
               preserveAspectRatio="xMidYMid slice"

@@ -38,7 +38,7 @@ const Working = () => {
           </clipPath>
         </defs>
         <image
-          href="/images/decor.jpg"
+          href="/images/decor.webp"
           width="270"
           height="408"
           clipPath="url(#work-clip)"

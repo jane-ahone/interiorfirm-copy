@@ -73,7 +73,7 @@ const Hero = () => {
 
             {/* Now, add the image and apply the mask */}
             <image
-              href="/images/statement-gallery-wall.jpg"
+              href="/images/statement-gallery-wall.webp"
               width="700"
               height="700"
               className="w-full"
