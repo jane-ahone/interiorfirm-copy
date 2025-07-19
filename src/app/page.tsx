@@ -11,14 +11,14 @@ export default function Home() {
   return (
     <main className="container-grid">
       <Hero />
-      <ExperienceSection />
+      {/* <ExperienceSection />
       <DreamSpace />
-      {/* <InnovativeSection /> */}
+      <InnovativeSection />
       <Unique />
       <Interior />
       <Feedback />
       <Working />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
