@@ -99,10 +99,10 @@ const Header = () => {
         </button>
       </header>
 
-      {isMenuVisible && (
+      {
         <nav
-          className={`lg:hidden md:flex gap-8 text-design-black text-xl nav-links-mobile ${
-            isMenuVisible ? "open" : ""
+          className={` md:flex gap-8 text-design-black text-xl nav-links-mobile ${
+            isMenuVisible ? "open" : "hidden"
           } `}
         >
           <X color="white" onClick={() => setIsMenuVisible(false)} />
@@ -123,7 +123,7 @@ const Header = () => {
             <p className="cursor-pointer">Feedbacks</p>
           </Link>
         </nav>
-      )}
+      }
     </>
   );
 };
