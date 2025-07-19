@@ -22,7 +22,7 @@
 .uni-text {
   font: var(--font-body);
   color: #030605;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   align-self: center;
   grid-row: 3/4;
   grid-column: 2/-2;
