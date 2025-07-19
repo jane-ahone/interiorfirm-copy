@@ -8,11 +8,11 @@ import Working from "@/components/organisms/Working/page";
 
 export default function Home() {
   return (
-    <main className="container-grid">
+    <main className="container-grid overflow-hidden">
       <Hero />
       <ExperienceSection />
-      {/* <DreamSpace />
-      <InnovativeSection /> */}
+      {/* <DreamSpace /> */}
+      {/* <InnovativeSection /> */}
       <Unique />
       <Interior />
       <Feedback />
