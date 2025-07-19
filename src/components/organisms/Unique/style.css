@@ -39,19 +39,26 @@
     flex-direction: column;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-resize {
+    margin: auto;
+  }
+}
 
 @media (min-width: 0px) and (max-width: 1024px) {
-
   .title-unique {
-    grid-column: 1;
+    align-self: start;
     font-size: 3rem;
     line-height: 1.25;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .img-cntr-main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+  .uni-text {
+    padding: 1rem;
   }
 }

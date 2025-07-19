@@ -84,6 +84,9 @@
   .image-2 {
     grid-column: 3/4;
   }
+  .email-div {
+    flex-direction: column;
+  }
 }
 @media (min-width: 0px) and (max-width: 600px) {
   .image-1,

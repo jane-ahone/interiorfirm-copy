@@ -6,6 +6,7 @@
 
 .div-1-work {
   grid-column: 2 / 5;
+  padding: 1rem;
 }
 .elmnt-1-work {
   grid-column: 5/6;

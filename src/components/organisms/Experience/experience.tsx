@@ -119,7 +119,7 @@ const ExperienceSection = () => {
           <p className="font-heading text-design-black font-bold text-2xl lg:text-4xl">
             Make your dream home.
           </p>
-          <span className="flex">
+          <span className="flex email-div">
             <input
               placeholder="Your email address"
               className="bg-design-light-grey px-6 py-3 lg:py-5 grow text-xs lg:text-base text-design-grey"

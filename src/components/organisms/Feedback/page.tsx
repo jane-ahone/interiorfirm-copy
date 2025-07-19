@@ -2,7 +2,7 @@ import "./style.css";
 
 const Feedback = () => {
   return (
-    <section className="grid-section mt-12 " id="feedbacks">
+    <section className="grid-section-feed mt-12 " id="feedbacks">
       <p className="title-feed font-heading text-design-black font-bold text-4xl py-6 lg:text-7xl lg:py-12">
         Our Customers Feedback.
       </p>
@@ -13,7 +13,6 @@ const Feedback = () => {
         viewBox="0 0 228 158"
         fill="none"
         preserveAspectRatio="xMidYMid meet"
-        style={{ width: "100%", height: "auto", maxWidth: "228px" }}
       >
         <path
           opacity="0.1"
@@ -50,7 +49,7 @@ const Feedback = () => {
             preserveAspectRatio="xMidYMid slice"
           />
         </svg>
-        <div className="text-design-black px-12 py-3">
+        <div className="text-design-black lg:px-12 lg:py-3">
           <p className="font-body text-4xl font-semibold leading-8 ">
             Jordyn Dorwart
           </p>
@@ -58,7 +57,7 @@ const Feedback = () => {
             “ Amazing fast and reliable customer support! The team of willing to
             go mile for customer service! ”
           </p>
-          <p className="text-design-grey text-[2rem] leading-8 mt-8">
+          <p className="hidden lg:block text-design-grey text-[2rem] leading-8 mt-8">
             Jordyn Dorwart
           </p>
         </div>

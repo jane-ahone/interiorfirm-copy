@@ -3,12 +3,11 @@
   text-align: end;
 }
 
-.text-int{
- grid-column: 3/5;
- grid-row: 2;
- position: relative;
- left: 5%;
-
+.text-int {
+  grid-column: 3/5;
+  grid-row: 2;
+  position: relative;
+  left: 5%;
 }
 
 .images-int {
@@ -28,4 +27,20 @@
   border-radius: 0 0 0 25rem;
   width: 100%;
   height: 290px;
+}
+@media (min-width: 0px) and (max-width: 1024px) {
+  .title-int {
+    font-size: 3rem;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+  }
+  .text-int {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    grid-column: 3/5;
+    grid-row: 1;
+    position: relative;
+    left: 0;
+    top: 1.5rem;
+  }
 }
