@@ -41,9 +41,7 @@
 }
 
 @media (min-width: 0px) and (max-width: 1024px) {
-  body {
-    font-size: 10px;
-  }
+
   .title-unique {
     grid-column: 1;
     font-size: 3rem;

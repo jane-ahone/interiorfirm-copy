@@ -1,7 +1,6 @@
 .section-footer {
   background: #f8fbfa;
   min-height: initial;
- 
 }
 
 .headings {
@@ -39,9 +38,6 @@
 }
 
 @media (min-width: 475px) and (max-width: 1024px) {
-  body {
-    font-size: 12px;
-  }
   .main-text {
     font-size: 3rem;
     line-height: normal;
