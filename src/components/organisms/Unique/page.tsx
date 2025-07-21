@@ -1,8 +1,14 @@
+"use client";
+import { useEffect } from "react";
+import { triggerAnimation } from "../Experience/experience";
 import "./style.css";
 
 const Unique = () => {
+  useEffect(() => {
+    triggerAnimation("unique");
+  }, []);
   return (
-    <section className="grid-section-uni p-4 lg:p-0 ">
+    <section className="grid-section-uni p-4 lg:p-0 " id="unique">
       <p className="title-unique font-heading text-design-black font-bold text-7xl">
         We will make Unique Designs for you.
       </p>

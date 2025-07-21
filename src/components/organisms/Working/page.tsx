@@ -1,9 +1,15 @@
+"use client";
 import { MoveRight } from "lucide-react";
 import "./style.css";
+import { useEffect } from "react";
+import { triggerAnimation } from "../Experience/experience";
 
 const Working = () => {
+  useEffect(() => {
+    triggerAnimation("works");
+  }, []);
   return (
-    <section className="grid-section mt-12 mb-8 section-work ">
+    <section className="grid-section mt-12 mb-8 section-work " id="works">
       <div className="div-1-work">
         <p className="title-work font-heading text-design-black font-bold text-4xl leading-14 py-6 lg:text-[5.12rem] lg:leading-20 lg:py-12">
           Interested in Working with Us?

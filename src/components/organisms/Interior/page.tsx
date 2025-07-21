@@ -1,6 +1,12 @@
+"use client";
+import { useEffect } from "react";
+import { triggerAnimation } from "../Experience/experience";
 import "./style.css";
 
 const Interior = () => {
+  useEffect(() => {
+    triggerAnimation("projects");
+  }, []);
   return (
     <section className="grid-section " id="projects">
       <p className="title-int font-heading text-design-black font-bold lg:text-7xl lg:py-12">
