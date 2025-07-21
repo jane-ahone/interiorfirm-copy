@@ -1,4 +1,5 @@
 import Footer from "@/components/layout/Footer/page";
+import DreamSpace from "@/components/organisms/DreamSpace/page";
 import ExperienceSection from "@/components/organisms/Experience/experience";
 import Feedback from "@/components/organisms/Feedback/page";
 import Hero from "@/components/organisms/Hero";
@@ -11,7 +12,7 @@ export default function Home() {
     <main className="container-grid overflow-hidden">
       <Hero />
       <ExperienceSection />
-      {/* <DreamSpace /> */}
+      <DreamSpace />
       {/* <InnovativeSection /> */}
       <Unique />
       <Interior />

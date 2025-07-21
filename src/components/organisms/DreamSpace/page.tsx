@@ -1,7 +1,13 @@
-import React from "react";
+"use client";
+
+import { useEffect } from "react";
 import "./style.css";
+import { triggerAnimation } from "@/lib/animationTriggers";
 
 const DreamSpace = () => {
+  useEffect(() => {
+    triggerAnimation("services");
+  }, []);
   return (
     <section className=" grid-section " id="services">
       <p className="title font-heading text-design-black font-bold text-5xl lg:text-7xl">
