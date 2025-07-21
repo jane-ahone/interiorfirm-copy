@@ -82,8 +82,6 @@ const InnovativeSection = () => {
 
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="958"
-        height="578"
         viewBox="0 0 958 578"
         fill="none"
         className="shape-3"

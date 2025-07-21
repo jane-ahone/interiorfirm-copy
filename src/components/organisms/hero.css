@@ -102,9 +102,6 @@
   .container-grid {
     grid-template-columns: 0.2fr 1fr 1fr 1fr; /* 1 column on small screens */
   }
-  .grid-section-hero {
-    height: 60svh;
-  }
 }
 
 @media (min-width: 0px) and (max-width: 1024px) {
@@ -148,6 +145,9 @@
   .main-text {
     font-size: 4rem;
     line-height: normal;
+  }
+  .grid-section-hero {
+    height: 60svh;
   }
 }
 @media (min-width: 1024px) and (max-width: 1440px) {
