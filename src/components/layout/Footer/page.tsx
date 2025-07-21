@@ -8,7 +8,7 @@ const Footer = () => {
     triggerAnimationRight("foot");
   }, []);
   return (
-    <footer className="grid-section section-footer min-h-[80vh] " id="foot">
+    <footer className="grid-section section-footer lg:min-h-[80vh] " id="foot">
       <div className="div-1-foot">
         <div>
           <svg

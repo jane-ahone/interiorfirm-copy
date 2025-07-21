@@ -21,12 +21,14 @@
 }
 
 .div-1-foot {
-  min-height: 50vh;
+  /* min-height: 50vh; */
   grid-column: 2 / -2;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   align-items: center;
   column-gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .div-2-foot {
   grid-column: 2 / -2;
@@ -57,5 +59,10 @@
   .div-2-foot {
     flex-direction: column;
     padding: 1rem;
+  }
+}
+@media (min-width: 1700px) {
+  .div-1-foot {
+    min-height: auto;
   }
 }

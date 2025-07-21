@@ -1,5 +1,5 @@
 .grid-section-hero {
-  min-height: 100svh;
+  height: 100svh;
   grid-column: 1/-1;
   grid-row: 1;
   display: grid;
