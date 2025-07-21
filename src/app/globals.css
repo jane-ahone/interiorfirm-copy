@@ -56,14 +56,32 @@ body {
   }
 }
 
-.section-to-animate.animate {
-  animation: fadeIn 1s ease forwards;
+/* .transition-sections{
+  will-change: opacity transitopm;
+} */
+
+.section-to-animate-left {
+  animation: fadeInLeft 1.5s ease forwards;
+}
+.section-to-animate-right {
+  animation: fadeInRight 1.5s ease forwards;
 }
 
-@keyframes fadeInText {
+@keyframes fadeInLeft {
   from {
     opacity: 0;
     transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
   }
   to {
     opacity: 1;

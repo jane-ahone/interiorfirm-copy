@@ -26,7 +26,7 @@
   grid-column: 3 / 4;
   position: relative;
   bottom: 20%;
-  z-index: 30;
+  z-index: 500;
 }
 
 .image-2 {

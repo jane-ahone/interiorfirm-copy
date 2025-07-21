@@ -33,11 +33,11 @@
   font-size: 1.25rem;
   font-weight: 500;
   opacity: 0;
-  animation: fadeIn 1.5s linear 2.5s forwards;
+  animation: fadeInOpacity 1.5s linear 2.5s forwards;
   will-change: transform, opacity;
 }
 
-@keyframes fadeIn {
+@keyframes fadeInOpacity {
   from {
     opacity: 0;
     /* transform: translateX(-30px); */
@@ -98,7 +98,6 @@
   position: absolute;
   bottom: 0;
   left: calc((100% / 16) * 3); /* column 8 = index 7 */
-  z-index: 20;
 }
 
 @keyframes typing {

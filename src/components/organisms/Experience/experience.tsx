@@ -1,10 +1,40 @@
+"use client";
+import { useEffect } from "react";
 import "./experience.css";
 import Image from "next/image";
 
 const ExperienceSection = () => {
+  useEffect(() => {
+    const target = document.getElementById("about");
+
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1,
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          console.log("Hereee");
+          entry.target.classList.add("section-to-animate-left");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, options);
+
+    if (target) {
+      observer.observe(target);
+    }
+
+    return () => {
+      if (target) observer.unobserve(target);
+    };
+  }, []);
+
   return (
     <section className="grid-section-exp font-body relative" id="about">
-      <div className="section-1 relative">
+      <div className="section-1 relative ">
         <span className="image-1">
           <svg
             viewBox="0 0 270 478"
@@ -87,7 +117,7 @@ const ExperienceSection = () => {
         </div>
       </div>
 
-      <div className="section-2 relative">
+      <div className="section-2 relative ">
         <Image
           className="scroll"
           src="/scroll.svg"
