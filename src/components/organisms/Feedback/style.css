@@ -32,7 +32,7 @@
 @media (min-width: 0px) and (max-width: 1024px) {
   .rect-2-feed {
     display: flex;
-    column-gap: 0.5rem;
+    column-gap: 1.5rem;
     align-items: center;
   }
   .elmnt-1 {

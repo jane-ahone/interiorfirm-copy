@@ -9,7 +9,7 @@ const Interior = () => {
   }, []);
   return (
     <section className="grid-section " id="projects">
-      <p className="title-int font-heading text-design-black font-bold px-4 lg:text-7xl lg:py-12">
+      <p className="title-int font-heading text-design-black font-bold px-4 text-5xl lg:text-7xl lg:py-12">
         Amazing Projects from Talented Interior Architects!
       </p>
       <div className="w-full rect-1-int aspect-[1310/580]">

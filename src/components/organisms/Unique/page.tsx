@@ -9,7 +9,7 @@ const Unique = () => {
   }, []);
   return (
     <section className="grid-section-uni p-4 lg:p-0 " id="unique">
-      <p className="title-unique font-heading text-design-black font-bold text-7xl">
+      <p className="title-unique font-heading text-design-black font-bold text-5xl lg:text-7xl">
         We will make Unique Designs for you.
       </p>
       <div className="img-cntr-main ">

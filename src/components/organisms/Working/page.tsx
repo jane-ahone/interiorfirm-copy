@@ -15,7 +15,7 @@ const Working = () => {
           Interested in Working with Us?
         </p>
 
-        <p className="font-body text-xl text-design-black leading-9 font-medium">
+        <p className="font-body lg:text-xl text-design-black leading-9 font-medium">
           Do you have a passion for creating beautiful and functional spaces? If
           you are interested in working with us, please visit our website and
           fill out the application form.

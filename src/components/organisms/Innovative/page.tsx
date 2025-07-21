@@ -4,7 +4,7 @@ import "./styles.css";
 const InnovativeSection = () => {
   return (
     <section className="grid-section-inno relative">
-      <p className="title-inno font-heading text-design-black font-bold text-7xl">
+      <p className="title-inno font-heading text-design-black font-bold text-5xl lg:text-7xl">
         Providing Innovative Interior Design.
       </p>
       <svg
