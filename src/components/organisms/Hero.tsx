@@ -4,8 +4,6 @@ import "./hero.css";
 import { MoveRight } from "lucide-react";
 
 const Hero = () => {
-  // const observer = new IntersectionObserver(()=>{},)
-
   const [displayText, setDisplayText] = useState("");
   const fullText = "Modern Interior Design Service";
 

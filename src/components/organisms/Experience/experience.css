@@ -17,7 +17,6 @@
 }
 
 .section-2 {
-  /* display: none; */
   grid-column: 1/-1;
   grid-row: 2;
   display: grid;
@@ -33,10 +32,6 @@
 
 .image-2 {
   grid-column: 4;
-  /* position: absolute; */
-  /* grid-column: 3; */
-  /* left: 20rem; */
-  /* display: none; */
 }
 
 .experience-text {
@@ -55,8 +50,6 @@
 
 .nightstand-img {
   grid-column: 4/5;
-  /* width: 30%;
-  height: auto; */
 }
 .arrow-right {
   margin: auto;
@@ -99,7 +92,7 @@
     display: none;
   }
   .grid-section-exp {
-    min-height: fit-content;
+    min-height: initial;
     grid-auto-rows: 175px;
   }
 
@@ -111,9 +104,6 @@
 
 @media (min-width: 0px) and (max-width: 475px) {
   .email-form {
-
     justify-content: center;
   }
-
-
 }

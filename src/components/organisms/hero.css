@@ -21,8 +21,6 @@
   grid-column: 3 / span 3;
   grid-row: 3;
   z-index: 200;
-  /* animation: typing 3s steps(20) forwards, blink 0.75s step-end infinite; */
-  /* animation: fadeIn 2.5s linear normal; */
 }
 
 .sentence {
