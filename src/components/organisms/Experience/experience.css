@@ -4,6 +4,8 @@
   grid-row: 2;
   display: grid;
   grid-template-columns: subgrid;
+  opacity: 0;
+  transform: translateX(-30px);
 }
 
 .section-1 {

@@ -1,11 +1,11 @@
 "use client";
 import { useEffect } from "react";
-import { triggerAnimation } from "../Experience/experience";
+import { triggerAnimationRight } from "../Experience/experience";
 import "./style.css";
 
 const Unique = () => {
   useEffect(() => {
-    triggerAnimation("unique");
+    triggerAnimationRight("unique");
   }, []);
   return (
     <section className="grid-section-uni p-4 lg:p-0 " id="unique">

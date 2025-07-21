@@ -1,11 +1,11 @@
 "use client";
 import { useEffect } from "react";
-import { triggerAnimation } from "../Experience/experience";
+import {  triggerAnimationRight } from "../Experience/experience";
 import "./style.css";
 
 const Feedback = () => {
   useEffect(() => {
-    triggerAnimation("feedbacks");
+    triggerAnimationRight("feedbacks");
   }, []);
   return (
     <section className="grid-section-feed mt-12 " id="feedbacks">
