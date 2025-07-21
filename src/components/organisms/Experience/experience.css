@@ -1,11 +1,12 @@
 .grid-section-exp {
-  min-height: 100svh;
   grid-column: 1/-1;
   grid-row: 2;
   display: grid;
   grid-template-columns: subgrid;
+  row-gap: 2rem;
   opacity: 0;
   transform: translateX(-30px);
+  margin-top: -1.5rem;
 }
 
 .section-1 {

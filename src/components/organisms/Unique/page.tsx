@@ -14,7 +14,7 @@ const Unique = () => {
       </p>
       <div className="img-cntr-main ">
         <div className="img-cntr relative ">
-          <div className="relative w-full max-w-[705px] img-resize ">
+          <div className="relative w-full  img-resize ">
             {/* First SVG */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ const Unique = () => {
           </div>
         </div>
         <div className="img-cntr-2 relative ">
-          <div className="relative w-full max-w-[705px] aspect-[705/600] img-resize">
+          <div className="relative w-full aspect-[705/600] img-resize">
             {/* Second (larger) SVG, absolutely positioned */}
             <svg
               xmlns="http://www.w3.org/2000/svg"

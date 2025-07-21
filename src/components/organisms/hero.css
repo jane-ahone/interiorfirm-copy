@@ -98,24 +98,12 @@
   left: calc((100% / 16) * 3); /* column 8 = index 7 */
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
 @media (max-width: 1024px) {
   .container-grid {
     grid-template-columns: 0.2fr 1fr 1fr 1fr; /* 1 column on small screens */
+  }
+  .grid-section-hero {
+    height: 60svh;
   }
 }
 

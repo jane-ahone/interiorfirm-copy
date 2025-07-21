@@ -40,11 +40,11 @@ body {
 .container-grid {
   display: grid;
   grid-template-columns: 0.2fr 0.0015fr repeat(3, 1fr) 0.2fr;
+  row-gap: 1.5rem;
   /* grid-template-rows: repeat(16, minmax(0, 1fr)); */
 }
 .grid-section {
   position: relative;
-  min-height: 100svh;
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: subgrid;
