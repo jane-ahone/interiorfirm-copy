@@ -1,4 +1,9 @@
-
+.header-links {
+  position: sticky;
+  z-index: 500;
+  background-color: white;
+  top: 0;
+}
 
 @media (max-width: 768px) {
   .nav-links-mobile {
