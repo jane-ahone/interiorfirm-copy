@@ -1,10 +1,27 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./hero.css";
 import { MoveRight } from "lucide-react";
 
 const Hero = () => {
-// const observer = new IntersectionObserver(()=>{},)
+  // const observer = new IntersectionObserver(()=>{},)
+
+  const [displayText, setDisplayText] = useState("");
+  const fullText = "Modern Interior Design Service";
+
+  useEffect(() => {
+    let i = 0;
+    const timer = setInterval(() => {
+      if (i < fullText.length) {
+        setDisplayText(fullText.slice(0, i + 1));
+        i++;
+      } else {
+        clearInterval(timer);
+      }
+    }, 80);
+
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {});
 
@@ -23,7 +40,7 @@ const Hero = () => {
         </svg>
 
         <p className="main-text font-bold text-2xl  leading-10 md:text-8xl md:leading-28 pl-1 font-heading relative z-40">
-          Modern Interior Design Service
+          {displayText}
         </p>
         <p className="sentence pl-1">
           Interiorfirm is an acclaimed multidisciplinary studio specializing in

@@ -1,18 +1,4 @@
-.header-links {
-  will-change: transform, opacity;
-  animation: fadeIn 1.5s linear normal;
-}
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(-10px);
-  }
-}
 
 @media (max-width: 768px) {
   .nav-links-mobile {
