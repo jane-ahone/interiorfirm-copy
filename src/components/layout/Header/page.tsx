@@ -7,10 +7,9 @@ import { useState } from "react";
 
 const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
-  console.log("visible", isMenuVisible);
   return (
     <>
-      <header className="bg-[#F8FBFA] flex md:justify-evenly justify-between items-center p-8 font-body overflow-hidden header-links">
+      <header className="bg-[#F8FBFA] flex md:justify-evenly justify-between items-center p-8 font-body overflow-hidden header-links ">
         <svg
           width="126"
           height="18"
@@ -101,7 +100,7 @@ const Header = () => {
 
       {
         <nav
-          className={`flex md:hidden gap-8 text-design-black text-xl nav-links-mobile ${
+          className={`flex md:hidden gap-8 text-design-black text-xl  nav-links-mobile ${
             isMenuVisible ? "open" : "hidden"
           } `}
         >

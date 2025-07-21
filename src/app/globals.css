@@ -55,3 +55,18 @@ body {
     display: initial;
   }
 }
+
+.section-to-animate.animate {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

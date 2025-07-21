@@ -1,9 +1,13 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import "./hero.css";
 import { MoveRight } from "lucide-react";
 
 const Hero = () => {
+// const observer = new IntersectionObserver(()=>{},)
+
+  useEffect(() => {});
+
   return (
     <section className="relative grid-section-hero" id="home">
       <div className="div-1 bg-design-yellow rounded-tr-[25rem] text-design-black relative">
