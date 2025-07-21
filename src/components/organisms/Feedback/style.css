@@ -3,6 +3,8 @@
 }
 .grid-section-feed {
   position: relative;
+  opacity: 0;
+  transform: translateX(-30px);
   min-height: 100svh;
   grid-column: 1/-1;
   display: grid;

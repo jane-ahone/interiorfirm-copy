@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import "./style.css";
+import { triggerAnimationRight } from "@/components/organisms/Experience/experience";
 
 const Footer = () => {
+  useEffect(() => {
+    triggerAnimationRight("foot");
+  }, []);
   return (
-    <footer className="grid-section section-footer min-h-[80vh] ">
+    <footer className="grid-section section-footer min-h-[80vh] " id="foot">
       <div className="div-1-foot">
         <div>
           <svg
