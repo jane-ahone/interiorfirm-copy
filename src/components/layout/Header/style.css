@@ -1,6 +1,6 @@
 .header-links {
   will-change: transform, opacity;
-  animation: fadeIn 2.5s linear normal;
+  animation: fadeIn 1.5s linear normal;
 }
 
 @keyframes fadeIn {

@@ -21,7 +21,7 @@
   grid-column: 3 / span 3;
   grid-row: 3;
   z-index: 200;
-  animation: fadeIn 2.5s linear normal;
+  /* animation: fadeIn 2.5s linear normal; */
 }
 
 .sentence {
@@ -31,7 +31,7 @@
   color: #030605;
   font-size: 1.25rem;
   font-weight: 500;
-  animation: fadeIn 2.5s linear normal;
+  /* animation: fadeIn 2.5s linear normal; */
 }
 .explore-btn {
   display: flex;
