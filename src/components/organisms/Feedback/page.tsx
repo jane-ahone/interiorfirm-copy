@@ -1,14 +1,14 @@
 "use client";
 import { useEffect } from "react";
-import {  triggerAnimationRight } from "../Experience/experience";
 import "./style.css";
+import { triggerAnimationRight } from "@/lib/animationTriggers";
 
 const Feedback = () => {
   useEffect(() => {
     triggerAnimationRight("feedbacks");
   }, []);
   return (
-    <section className="grid-section-feed mt-12 " id="feedbacks">
+    <section className="grid-section-feed lg:mt-16 " id="feedbacks">
       <p className="title-feed font-heading text-design-black font-bold text-5xl py-6 lg:text-7xl lg:py-12">
         Our Customers Feedback.
       </p>

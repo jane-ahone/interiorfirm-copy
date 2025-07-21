@@ -111,11 +111,9 @@
 
 @media (min-width: 0px) and (max-width: 475px) {
   .email-form {
-    align-items: center;
+
     justify-content: center;
   }
 
-  .experience-text > * {
-    text-align: center;
-  }
+
 }

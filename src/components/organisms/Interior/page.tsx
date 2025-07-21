@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import { triggerAnimation } from "../Experience/experience";
 import "./style.css";
+import { triggerAnimation } from "@/lib/animationTriggers";
 
 const Interior = () => {
   useEffect(() => {
@@ -9,7 +9,7 @@ const Interior = () => {
   }, []);
   return (
     <section className="grid-section " id="projects">
-      <p className="title-int font-heading text-design-black font-bold lg:text-7xl lg:py-12">
+      <p className="title-int font-heading text-design-black font-bold px-4 lg:text-7xl lg:py-12">
         Amazing Projects from Talented Interior Architects!
       </p>
       <div className="w-full rect-1-int aspect-[1310/580]">
@@ -39,7 +39,7 @@ const Interior = () => {
           <p className="font-body text-2xl lg:text-4xl font-semibold leading-9">
             Modern Style.
           </p>
-          <p className="font-body leading-4 text-base md:leading-7 lg:leading-9 lg:text-xl">
+          <p className="font-body md:leading-7 lg:leading-9 lg:text-xl">
             The modernist movement began to take shape when it shifted away from
             traditional construction and design elements such as wood, stone,
             and brick and toward industrial materials like as glass, steel, and

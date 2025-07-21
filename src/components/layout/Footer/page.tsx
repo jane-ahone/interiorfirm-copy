@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import "./style.css";
-import { triggerAnimationRight } from "@/components/organisms/Experience/experience";
+import { triggerAnimationRight } from "@/lib/animationTriggers";
 
 const Footer = () => {
   useEffect(() => {

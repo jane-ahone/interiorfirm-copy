@@ -2,7 +2,7 @@
 import { MoveRight } from "lucide-react";
 import "./style.css";
 import { useEffect } from "react";
-import { triggerAnimation } from "../Experience/experience";
+import { triggerAnimation } from "@/lib/animationTriggers";
 
 const Working = () => {
   useEffect(() => {

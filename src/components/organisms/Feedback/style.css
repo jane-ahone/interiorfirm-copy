@@ -11,6 +11,7 @@
   grid-template-columns: subgrid;
 }
 .elmnt-1 {
+  display: initial;
   margin-right: 1.5rem;
   grid-column: 5/6;
   justify-self: flex-end;
@@ -35,9 +36,7 @@
     align-items: center;
   }
   .elmnt-1 {
-    max-width: 20px;
-    position: absolute;
-    top: 5%;
+    display: none;
   }
   .grid-section-feed {
     min-height: fit-content;

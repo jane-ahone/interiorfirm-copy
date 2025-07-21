@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import { triggerAnimationRight } from "../Experience/experience";
 import "./style.css";
+import { triggerAnimationRight } from "@/lib/animationTriggers";
 
 const Unique = () => {
   useEffect(() => {
