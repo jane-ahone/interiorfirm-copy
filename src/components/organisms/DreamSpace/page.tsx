@@ -10,7 +10,7 @@ const DreamSpace = () => {
   }, []);
   return (
     <section className=" grid-section " id="services">
-      <p className="title font-heading text-design-black font-bold text-5xl lg:text-7xl">
+      <p className="title font-heading text-design-black font-bold text-5xl p-4 lg:text-7xl">
         Create your Dream Space.
       </p>
 
