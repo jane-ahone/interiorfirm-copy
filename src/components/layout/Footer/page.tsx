@@ -5,10 +5,13 @@ import { triggerAnimationRight } from "@/lib/animationTriggers";
 
 const Footer = () => {
   useEffect(() => {
-    triggerAnimationRight("foot");
+    triggerAnimationRight("footer");
   }, []);
   return (
-    <footer className="grid-section section-footer lg:min-h-[80vh] " id="foot">
+    <footer
+      className="grid-section section-footer lg:min-h-[80vh] "
+      id="footer"
+    >
       <div className="div-1-foot">
         <div>
           <svg

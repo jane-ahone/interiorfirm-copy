@@ -3,8 +3,10 @@ import { MoveRight } from "lucide-react";
 import "./style.css";
 import { useEffect } from "react";
 import { triggerAnimation } from "@/lib/animationTriggers";
+import { useRouter } from "next/navigation";
 
 const Working = () => {
+  const router = useRouter();
   useEffect(() => {
     triggerAnimation("works");
   }, []);
@@ -20,7 +22,10 @@ const Working = () => {
           you are interested in working with us, please visit our website and
           fill out the application form.
         </p>
-        <button className="explore-btn bg-design-green mt-8 mb-8 py-4 px-5 text-white font-semibold ">
+        <button
+          className="explore-btn bg-design-green mt-8 mb-8 py-4 px-5 text-white font-semibold "
+          onClick={() => router.push("#footer")}
+        >
           {" "}
           Explore Now
           <MoveRight />

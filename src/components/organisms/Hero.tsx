@@ -2,8 +2,10 @@
 import React, { useEffect, useState } from "react";
 import "./hero.css";
 import { MoveRight } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const Hero = () => {
+  const router = useRouter();
   const [displayText, setDisplayText] = useState("");
   const fullText = "Modern Interior Design Service";
 
@@ -46,7 +48,10 @@ const Hero = () => {
           laid-back luxury.
         </p>
 
-        <button className="explore-btn bg-design-green py-4 px-5 text-white font-semibold ">
+        <button
+          className="explore-btn bg-design-green py-4 px-5 text-white font-semibold "
+          onClick={() => router.push("#about")}
+        >
           {" "}
           Explore Now
           <MoveRight />
