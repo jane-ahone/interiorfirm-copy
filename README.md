@@ -167,7 +167,3 @@ Navigate to `http://localhost:3000` to view the site.
 
 This is an educational and portfolio project only. No commercial use of the original design is intended.
 
-```
-
-
-```
