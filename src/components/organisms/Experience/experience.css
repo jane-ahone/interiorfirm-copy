@@ -41,9 +41,7 @@
   grid-column: 5 / auto;
 }
 
-.bottom-section {
-  grid-row: 4 / auto;
-}
+
 .scroll {
   grid-column: 1 / 4;
   justify-self: center;

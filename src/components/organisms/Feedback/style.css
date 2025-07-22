@@ -1,5 +1,6 @@
 .title-feed {
   grid-column: 2 / 5;
+  line-height: normal;
 }
 .grid-section-feed {
   position: relative;
