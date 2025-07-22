@@ -153,6 +153,8 @@ Navigate to `http://localhost:3000` to view the site.
 
 ---
 
+![Interiorfirm Demo](./public/interiorfirm-copy.vercel.app_.png)
+
 ## 🙏 Acknowledgments
 
 - Original UI inspiration from:

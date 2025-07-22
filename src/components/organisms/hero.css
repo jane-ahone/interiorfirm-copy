@@ -144,9 +144,6 @@
     font-size: 4rem;
     line-height: normal;
   }
-  .grid-section-hero {
-    height: 60svh;
-  }
 }
 @media (min-width: 1024px) and (max-width: 1440px) {
   .main-text {
