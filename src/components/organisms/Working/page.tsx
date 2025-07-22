@@ -23,7 +23,7 @@ const Working = () => {
           fill out the application form.
         </p>
         <button
-          className="explore-btn bg-design-green mt-8 mb-8 py-4 px-5 text-white font-semibold "
+          className="explore-btn bg-design-green mt-8 mb-8 py-4 px-5 text-white cursor-pointer font-semibold "
           onClick={() => router.push("#footer")}
         >
           {" "}
